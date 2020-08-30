@@ -10,6 +10,12 @@ import statements from "./content/about-me";
 
 import "./scss/index.scss";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faExternalLinkAlt);
+
 const App = () => (
   <div className="container-lg">
     <div className="home-container">

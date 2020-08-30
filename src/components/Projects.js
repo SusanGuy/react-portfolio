@@ -15,7 +15,7 @@ const ProjectSkills = ({ skills }) => {
   );
 };
 
-const ProjectLinks = ({ github, preview }) => {
+const ProjectLinks = ({ links: { github, preview } }) => {
   return (
     <div className="project-links">
       {preview !== "" && (
